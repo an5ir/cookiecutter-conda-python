@@ -1,0 +1,9 @@
+name: {{cookiecutter.repo_name}}
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - pip
+  - pip:
+    - pytest
+    - pytest-cov
